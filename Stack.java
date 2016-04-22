@@ -26,7 +26,6 @@ public class Stack
       return;
    }
    // end public method PushStack
-
    public char PopStack()
    {
       char      SI;
