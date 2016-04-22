@@ -14,7 +14,7 @@ public class Stack2<StackItem>
       Top = null;
    }
    // end constructor
-
+   
    public void PushStack(StackItem SI)
    {
       StackNode Temp;
