@@ -1,8 +1,6 @@
 /**************************************************************************
 *                                                                         *
 *     Program Filename:  reverse2.java                                    *
-*     Author          :  John B. Student                                  *
-*     Date Written    :  August 21, 2014                                  *
 *     Purpose         :  To demonstrate the Stack Interface               *
 *     Input from      :  keyboard                                         *
 *     Output to       :  Screen                                           *
