@@ -1,8 +1,8 @@
-public class Stack
+public class Stack<StackItem>
 {
    private class StackNode
    {
-      char      Content;
+      StackItem Content;
       StackNode Link;
    }
    // end class StackNode
@@ -15,7 +15,7 @@ public class Stack
    }
    // end constructor
 
-   public void PushStack(char SI)
+   public void PushStack(StackItem SI)
    {
       StackNode Temp;
 
@@ -26,9 +26,10 @@ public class Stack
       return;
    }
    // end public method PushStack
-   public char PopStack()
+
+   public StackItem PopStack()
    {
-      char      SI;
+      StackItem SI;
 
       if (Top == null)
       {
